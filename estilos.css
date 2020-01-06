@@ -1,0 +1,59 @@
+html,body{
+  margin:0px;
+  padding: 0px;
+}
+
+nav{
+  background-color: #2AB7CD;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  padding: 5px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color:black;
+}
+nav ul li a:hover{
+  color: white;
+}
+.Brand-image{
+  color:white;
+  font-size: 20px;
+}
+/* Aqui empieza el main section */
+
+
+.main-section {
+  padding: 7%;
+  text-align: center;
+}
+
+
+.Productos{
+  background-image: url("../images/rectangulo.png");
+  height: 500px;
+  width: auto;
+  background-position: center top;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+}
+.producto{
+  padding:15%;
+  align-items: center;
+}
+.producto .content{
+  background-color: white;
+  padding: 20px;
+}
